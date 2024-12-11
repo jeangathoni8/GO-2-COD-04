@@ -37,17 +37,20 @@ A modern, secure password generator built with React, TypeScript, and Tailwind C
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/jeangathoni8/GO-2-COD-04.git
 cd fortify-passwords
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -69,6 +72,7 @@ The built files will be in the `dist` directory.
 Fortify Passwords uses the Web Crypto API's `crypto.getRandomValues()` for generating cryptographically secure random values. This ensures that generated passwords are truly random and secure.
 
 Password strength is calculated based on:
+
 - Password length
 - Character set variety
 - Character distribution
